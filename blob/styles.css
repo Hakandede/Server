@@ -1,0 +1,119 @@
+::-webkit-scrollbar {
+    display: none;
+  }
+
+html, body {
+    height: 100%;
+    scroll-behavior: smooth;
+    background-color: rgb(50, 50, 50); 
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+  }
+  
+  body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+@keyframes titleanim {
+    from {color: rgb(255, 255, 255);}
+    to {color: rgb(0, 0, 0); }
+}
+@keyframes svganim {
+    from {fill:rgb(255, 255, 255);}
+    to {fill:rgb(0, 0, 0); }
+}
+#firstpage
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#blob
+{
+    position: absolute;
+}
+
+h1.baslik{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    animation: titleanim 2s;
+    margin-bottom: 12%;
+    font-size: 50px;
+    width: 100vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1.baslik:hover{
+    transition: 0.70s;
+    color: rgb(224, 224, 224);
+}
+
+#svgg:hover{
+    transition: 0.40s;
+    fill:rgb(226, 226, 226)
+}
+ul { 
+    padding:0;
+    margin: 0;
+    position: absolute;
+    margin-top: 2%;
+    width: 100vw;
+    list-style-type: none;
+}
+li {
+
+    padding-left: 25px;
+    width: 50px;
+    display: inline-flex;
+    
+}
+#svgg{
+    animation: svganim 3s;
+}
+#secondpage
+{
+    position: absolute;
+    background-color: gainsboro;
+    top: 102%;
+    width: 100%;
+    height: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#scroll
+{
+    position: absolute;
+    bottom: 2%;
+}
+#scroll:hover{
+    transition: 0.40s;
+    bottom: 0.5%;
+  
+}
+#project{
+    position: absolute;
+    margin-left: 2%;
+    text-align: left;
+}
+div.footer{
+
+    width: 100%;
+    bottom: -100%;
+    position: absolute;
+    font-size: 0.80vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    
+}
