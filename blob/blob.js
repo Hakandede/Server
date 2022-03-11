@@ -7,12 +7,15 @@ function setup() {
 }
  function mouseClicked()
  {
-  if(strok === 255)
+  if(strok == 255)
   {
     strok = 0;
   }
   else
-  {strok = 255;}
+  {
+    strok = 255;
+    console.log(strok);
+  }
  }
 
 function draw() {
