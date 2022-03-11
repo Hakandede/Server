@@ -14,9 +14,9 @@ function draw() {
   var radius = 300;
   beginShape();
   var xoff = 0;
-  for (var a = 0; a < TWO_PI; a += 0.1) {
+  for (var a = 0; a < 100; a += 0.1) {
 
-   
+   noStroke();
     var offset = map(noise(xoff, yoff), 0, 1, -70, 70);
     var r = radius + offset;
     var x = r * cos(a);
