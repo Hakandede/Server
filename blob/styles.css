@@ -50,7 +50,7 @@ h1.baslik{
     position: absolute;
     color: rgb(0, 0, 0);
     animation: titleanim 2s;
-    margin-bottom: 12vh;
+    margin-bottom: 14vh;
     font-size: 50px;
     width: 100vw;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -69,7 +69,7 @@ ul {
     padding:0;
     margin: 0;
     position: absolute;
-    margin-top: 2vh;
+    margin-top: 5vh;
     width: 100vw;
     list-style-type: none;
 }

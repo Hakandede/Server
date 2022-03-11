@@ -1,11 +1,19 @@
 
 var yoff = 0.0;
-
+var strok = 255;
 function setup() {
   createCanvas(700,700);
 
 }
-
+ function mouseClicked()
+ {
+  if(strok === 255)
+  {
+    strok = 0;
+  }
+  else
+  {strok = 255;}
+ }
 
 function draw() {
   background(50);
@@ -14,9 +22,10 @@ function draw() {
   var radius = 300;
   beginShape();
   var xoff = 0;
-  for (var a = 0; a < 100; a += 0.1) {
+  stroke(strok);
+  for (var a = 0; a < 80; a += 0.1) {
 
-   noStroke();
+
     var offset = map(noise(xoff, yoff), 0, 1, -70, 70);
     var r = radius + offset;
     var x = r * cos(a);
