@@ -110,6 +110,15 @@ li {
     padding-right: 1%;
     text-align: left;
 }
+#project1{
+    border-right: 2px solid gray;
+    width: 47%;
+    position: absolute;
+    margin-left: 2%;
+    padding-right: 1%;
+    text-align: left;
+    bottom: 30%;
+}
 #projectRight{
 
     left: 50%;
@@ -118,10 +127,25 @@ li {
     margin-left: 2%;
     text-align: left;
 }
+#projectRight1{
+
+    left: 50%;
+    width: 48%;
+    position: absolute;
+    margin-left: 2%;
+    text-align: left;
+    bottom: 60%;
+}
+
 #foto{
     padding-left: 2%;
     position: absolute;
     width: 70%;
+}
+#foto1{
+    padding-left: 2%;
+    position: absolute;
+    width: 65%;
 }
 div.footer{
  
