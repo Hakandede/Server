@@ -94,6 +94,7 @@ li {
 }
 #scroll
 {
+    filter: invert();
     position: absolute;
     bottom: 2%;
 }
