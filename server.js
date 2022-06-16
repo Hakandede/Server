@@ -42,6 +42,11 @@ app.get('/dicefight', function(request, response)
   response.sendFile(path.join(__dirname+'/NotPong/index.html'));
 });
 
+app.get('/gpg', function(request, response) 
+{
+  response.sendFile(path.join(__dirname+'/blob/pgp.html'));
+});
+
 
 app.post('/CLItoSV', (request, response) => {
     correctArr(); 

@@ -29,6 +29,27 @@ html, body {
     from {fill:rgb(255, 255, 255);}
     to {fill:rgb(0, 0, 0); }
 }
+
+#gpg
+{
+    margin-left: 10px;
+    position: absolute;
+    font-family: monospace;
+    top: 0%;
+    left: 0%;
+    width: 250px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(239, 253, 253);
+}
+#gpglink
+{    
+font-size: 20px;
+margin-left: 8px;
+color: rgb(239, 253, 253);
+
+}
 #firstpage
 {
     position: absolute;
